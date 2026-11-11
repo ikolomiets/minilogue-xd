@@ -8,6 +8,7 @@ This Rust 2021 workspace provides MIDI control and patch manipulation for the Ko
 - `crates/minilogue/` re-exports the library as `minilogue::xd`.
 - Unit tests live beside source code; integration tests are in `crates/minilogue-xd/tests/`. Runnable utilities and patches are in `crates/minilogue-xd/examples/`.
 - `docs/design/` and `docs/dev/` hold plans; `docs/korg-user-guide/` contains reference material. `assets/` contains images and contributor guidance.
+- `docs/wiki/` is an LLM-maintained design wiki (protocol facts, Rust design, Zig/TigerStyle port notes). Read `docs/wiki/AGENTS.md` before editing it; start queries at `docs/wiki/index.md`.
 
 ## Build, Test, and Development Commands
 

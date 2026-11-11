@@ -101,6 +101,11 @@ The official Korg product user guide (PDF) for the Minilogue has been converted 
 The detailed project plan with milestone breakdowns lives at:
 `docs/design/02-under-review/0001-minilogue-xd-rust-library-project-plan.md`
 
+## Design Wiki
+
+`docs/wiki/` is an LLM-maintained wiki of protocol facts, the Rust design, and Zig/TigerStyle
+port notes. Start at `docs/wiki/index.md`; follow the schema in `docs/wiki/AGENTS.md` when editing.
+
 ## Git Remotes
 
 Pushes go to: macpro, github, codeberg (via `make push`)
